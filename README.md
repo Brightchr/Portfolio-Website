@@ -74,7 +74,7 @@ Follow these steps to set up the project locally:
 - On submission, the form sends an email and shows a confirmation message.
 
 ## File Structure
-src/
+-src/
 -├── assets/
 -│   ├── Projects.json        # Project data for dynamic rendering
 -│   ├── states.json          # US states data for the contact form

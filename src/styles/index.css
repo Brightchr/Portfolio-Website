@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .neon-text {
+    text-shadow: 0 0 8px #00ffff, 0 0 16px #00ffff, 0 0 24px #00ffff;
+  }
+
+  .glow-effect {
+    box-shadow: 0 0 12px #00ffff, 0 0 24px #9400d3;
+  }
+}
+
+
+/* Prevent overflow and side-scrolling */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #101124;
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #00ffff;
+  border-radius: 6px;
+  border: 2px solid #101124; /* Matches the background */
+}
+
+/* Scrollbar thumb hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #00bfff;
+}
+
+/* Initial hidden state for scroll sections */
+.scroll-section {
+  opacity: 0;
+  transform: translateX(30px); /* Default slide-in from the right */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+/* Slide-in from the right */
+.animate-slide-in-right {
+  opacity: 1 !important;
+  transform: translateX(0);
+}
+
+/* Slide-in from the left */
+.animate-slide-in-left {
+  opacity: 1 !important;
+  transform: translateX(0);
+}
+

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Inventory Management System",
+    "description": "A tool to show the quantity of items in your inventory and help you manage them.",
+    "details": "This project uses React to create a 2 page web page.",
+    "image": "InventoryManagement.png",
+    "sourceCode": "https://github.com/username/repository"
+  },
+  {
+    "id": 2,
+    "title": "Finanace Manager Application",
+    "description": "A tool to help users track their spendings and finances.",
+    "details": "Built with Python and CustomTkinter",
+    "image": "FinanaceManager.png",
+    "sourceCode": "https://github.com/username/repository"
+  },
+  {
+    "id": 3,
+    "title": "Business Card Generator",
+    "description": "A generator to create and format business card layouts.",
+    "details": "Built in Python with Flask and React",
+    "image": "BusinessCard.png",
+    "sourceCode": "https://github.com/username/repository"
+  },
+  {
+    "id": 4,
+    "title": "Word Scrambler",
+    "description": "Simple word scramble app that generates scrambled text. Can also be used for password security",
+    "details": "Built with Python",
+    "image": "WordScrambler.png",
+    "sourceCode": "https://github.com/username/repository"
+  },
+  {
+    "id": 5,
+    "title": "Live Stock Monitoring App",
+    "description": "A live app that monitors users stocks.",
+    "details": "Built with Flash, Python, Vue.js and YahooFinanace API",
+    "image": "Stocks.png",
+    "sourceCode": "https://github.com/username/repository"
+  },
+  {
+    "id": 6,
+    "title": "Password Manager",
+    "description": "Can create and store secure passwords without the need of storing them online. Creates and executable that can be run from your desktop.",
+    "details": "Built with Python",
+    "image": "PasswordManager.png",
+    "sourceCode": "https://github.com/username/repository"
+  }
+]

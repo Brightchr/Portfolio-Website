@@ -75,24 +75,24 @@ Follow these steps to set up the project locally:
 
 ## File Structure
 src/
-├── assets/
-│   ├── Projects.json        # Project data for dynamic rendering
-│   ├── states.json          # US states data for the contact form
-├── components/
-│   ├── Navbar.jsx           # Navigation bar component
-│   ├── Footer.jsx           # Footer component
-├── pages/
-│   ├── Home.jsx             # Home/landing page
-│   ├── About.jsx            # About section
-│   ├── Projects.jsx         # Projects grid and modals
-│   ├── ContactMe.jsx        # Contact form with EmailJS
-│   ├── Services.jsx         # Services offered
-│   ├── Skills.jsx           # Skills page
-│   ├── ProjectDetails.jsx   # Detailed project descriptions
-├── styles/
-│   ├── index.css            # Custom styles and TailwindCSS
-├── App.jsx                  # Main App component
-├── index.jsx                # Entry point
+-├── assets/
+-│   ├── Projects.json        # Project data for dynamic rendering
+-│   ├── states.json          # US states data for the contact form
+-├── components/
+-│   ├── Navbar.jsx           # Navigation bar component
+-│   ├── Footer.jsx           # Footer component
+-├── pages/
+-│   ├── Home.jsx             # Home/landing page
+-│   ├── About.jsx            # About section
+-│   ├── Projects.jsx         # Projects grid and modals
+-│   ├── ContactMe.jsx        # Contact form with EmailJS
+-│   ├── Services.jsx         # Services offered
+-│   ├── Skills.jsx           # Skills page
+-│   ├── ProjectDetails.jsx   # Detailed project descriptions
+-├── styles/
+-│   ├── index.css            # Custom styles and TailwindCSS
+-├── App.jsx                  # Main App component
+-├── index.jsx                # Entry point
 
 ## Contact Form
 ### How it Works

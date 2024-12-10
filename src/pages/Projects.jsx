@@ -6,14 +6,14 @@ const Projects = () => {
     {
       feedback:
         "The design quality, flexibility, documentation, and support are all absolutely excellent. Highly recommended!",
-      name: "Josef Sharon",
-      position: "CEO, OmniSoft",
+      name: "Jeff Bezos",
+      position: "CEO, Amazon",
     },
     {
       feedback:
-        "The team provided outstanding solutions tailored to our needs. Their commitment to quality is unparalleled.",
-      name: "Jane Doe",
-      position: "CTO, TechWorld",
+        "He provided outstanding solutions tailored to our needs. Their commitment to quality is unparalleled.",
+      name: "Bill Gates",
+      position: "CEO, Microsoft",
     },
     {
       feedback:

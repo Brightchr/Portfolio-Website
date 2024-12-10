@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
+import { Link } from "react-scroll";
 
 export default function Services() {
   const services = [
@@ -99,13 +100,18 @@ export default function Services() {
                 </p>
                 {/* Call to Action Button */}
                 <div className="flex justify-center lg:justify-start">
-                  <button className="relative group px-6 py-3 text-white font-bold inline-block">
+                  <Link
+                    to="contact" // Match the ID of your About Me section
+                    smooth={true}
+                    duration={500}
+                    className="mt-4 relative group px-6 py-3 text-white font-bold inline-block cursor-pointer"
+                  >
                     <span className="absolute top-0 left-0 w-8 h-0.5 bg-blue-400 group-hover:w-full transition-all duration-300"></span>
                     <span className="absolute top-0 left-0 w-0.5 h-8 bg-blue-400 group-hover:h-full transition-all duration-300"></span>
                     <span className="absolute bottom-0 right-0 w-8 h-0.5 bg-blue-400 group-hover:w-full transition-all duration-300"></span>
                     <span className="absolute bottom-0 right-0 w-0.5 h-8 bg-blue-400 group-hover:h-full transition-all duration-300"></span>
                     <span className="relative z-10">Contact Me</span>
-                  </button>
+                  </Link>
                 </div>
               </div>
             ))}
